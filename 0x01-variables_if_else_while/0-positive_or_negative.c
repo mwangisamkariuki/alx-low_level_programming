@@ -2,15 +2,17 @@
 #include <time.h>
 #include <stdlib.h>
 
-/** generate a random number,
-  * then determines if it is positive ,
-  * prints the results as +ve or negative
-  * plus a new line
-  * Returns 0 on successfull execution
-* */
+/**
+ * generate a random number,
+ * then determines if it is positive ,
+ * prints the results as +ve or negative
+ * plus a new line
+ * Returns 0 on successfull execution
+*/
 int main(void)
 {
-    int n;    
+       	int n;
+
     	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
