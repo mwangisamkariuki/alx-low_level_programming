@@ -66,3 +66,10 @@ The first printed number should be the number passed to your function
 The last printed number should be 98
 You are allowed to use the standard library
 julien@ubuntu:~/0x02$ cat 11-main.c
+
+
+# Task 12
+Write a function that prints the n times table, starting with 0.
+Prototype: void print_times_table(int n);
+If n is greater than 15 or less than 0 the function should not print anything
+Format: see example
