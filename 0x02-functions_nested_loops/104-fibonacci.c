@@ -4,14 +4,6 @@
  * main - finds and prints the first 98 Fibonacci numbers,
  * starting with number 1 and 2
  * followed by a new line
- * @i: this is the first interger int the fibonacci series
- * @j:The long int in the fibonacci numbers
- * @j:The long int in the fibonacci numbers
- * @k:The long int in the fibonacci numbers
- * @j1:The long int in the fibonacci numbers
- * @j2:The long int in the fibonacci numbers
- * @k1:The long int in the fibonacci numbers
- * @k2:The long int in the fibonacci numbers
  * Return: ALways 0 (Success)
  */
 int main(void)
