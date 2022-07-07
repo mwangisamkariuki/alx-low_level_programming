@@ -5,21 +5,20 @@
  * char i is the character  that is being checked for loop cndition loop
  * Returns: void since it is only printing a loop
  */
+
 void more_numbers(void)
 {
+	int i;
+	int j;
 
-int i;
-int j;
-i=0;
-while (i <= 10)
-{
-j=0;
-while (j <= 14)
-{
-_putchar(j);
-j++;
-}
-_putchar('\n');
-i++;
-}
+	for (j = 0; j < 10; ++j)
+	{
+		for (i = 0; i < 15; ++i)
+		{
+			if (i > 9)
+				_putchar('0' + i / 10);
+			_putchar('0' + i % 10);
+		}
+		_putchar('\n');
+	}
 }
