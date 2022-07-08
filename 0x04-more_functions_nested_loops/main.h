@@ -28,5 +28,7 @@ void print_square(int size);
 /*print a traingle*/
 void print_triangle(int size);
 
+/*function that print numbers */
+void print_number(int n);
 
 #endif 
