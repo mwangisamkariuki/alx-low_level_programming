@@ -13,4 +13,5 @@
     prints a given string in the reversed order
 # Task 5:
     prints a given string in the corect order and then in a reversed order
-   
+# Task 6:
+    A function that prints every other character of a string, starting with the first character.
