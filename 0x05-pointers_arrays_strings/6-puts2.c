@@ -9,14 +9,12 @@
  */
 void puts2(char *str)
 {
-if (*str)
+if (str)
 {
 do {
+if (*str)
 _putchar(*str++);
-} while
-(*str++);
-{
+} while (*str++);
 _putchar('\n');
-}
 }
 }
