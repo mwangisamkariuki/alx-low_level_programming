@@ -11,4 +11,6 @@
     using the prototype void _puts(char *str);
 # Task 4:
     prints a given string in the reversed order
-    
+# Task 5:
+    prints a given string in the corect order and then in a reversed order
+   
