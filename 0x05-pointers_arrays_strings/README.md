@@ -6,3 +6,6 @@
     to hold the value of one int as you swap the other variable address
 # Task 3:
     Culculate the length of a given string using the function Prototype: int _strlen(char *s);
+# Task 4:
+    prints a string, followed by a new line, to stdout
+    using the prototype void _puts(char *str);
