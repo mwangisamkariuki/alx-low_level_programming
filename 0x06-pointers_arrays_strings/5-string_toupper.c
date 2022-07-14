@@ -3,7 +3,7 @@
 /**
  * string_toupper - function change all lowercase
  * letters of a string to uppercase
- * 
+ *
  * @s: the string the change
  *
  * Return: pointer to the resulting string

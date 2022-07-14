@@ -4,7 +4,9 @@
  * cap_string -function capitalize the words in a strings
  * @s: the string to capitalize
  *
- * Description: The following characters are considered word separators:
+ * Description: The following characters
+ * are considered word separators:
+ *
  * "<space> <tab> <newline> , ; . ! ? \" ( ) { }"
  *
  * Return: pointer to the capitalized string
