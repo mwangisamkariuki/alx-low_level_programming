@@ -1,24 +1,25 @@
 #include "main.h"
 
 /**
- * print_number - print an integer
- * @n: the integer to print
+ * rot13 - encode a string using rot13
+ * @s: the string to encode
  *
- * Return: void
+ * Description: Each letter is replaced
+ * with the 13th letter after it.
+ *
+ * Return: pointer to the encoded string
  */
-void print_number(int n)
+char *rot13(char *s)
 {
-	if (n > -1)
+	char *c;
+	char shift;
+
+	for (c = s; *c; ++c)
 	{
-		while (n > 9)
-			print_number(n / 10);
-		_putchar('0' + n % 10);
+		shift = 'A' + (*c & 32);
+		if (('a' <= *c && *c <= 'z') || ('A' <= *c && *c <= 'Z'))
+			*c = (*c - shift + 13) % 26 + shift;
 	}
-	else
-	{
-		_putchar('-');
-		while (n < -9)
-			print_number(n / -10);
-		_putchar('0' - n % 10);
-	}
+
+	return (s);
 }
