@@ -21,4 +21,7 @@ void reverse_array(int *a, int n);
  */
 char *string_toupper(char *);
 
+/*a function that capitalizes all words of a string.*/
+char *cap_string(char *);
+
 #endif
