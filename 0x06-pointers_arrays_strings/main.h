@@ -32,4 +32,7 @@ char *rot13(char *);
 
 
 int _putchar(char c);
+
+/*print an int number*/
+void print_number(int n);
 #endif
