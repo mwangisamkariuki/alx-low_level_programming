@@ -26,4 +26,10 @@ char *cap_string(char *);
 
 /*function that encodes a string into 1337*/
 char *leet(char *);
+
+/*a function that encodes a string using rot13.*/
+char *rot13(char *);
+
+
+int _putchar(char c);
 #endif
