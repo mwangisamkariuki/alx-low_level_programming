@@ -6,8 +6,10 @@
  * @src: the string to copy
  * @n: the maximum number of bytes to copy from src
  *
- * Description: This function copies at most n number of bytes of the string pointed
- * to by src to the buffer pointed to by dest. If the length of src is less
+ * Description: This function copies at most n number
+ * of bytes of the string pointed
+ * to by src to the buffer pointed to by dest
+ * If the length of src is less
  * than n, this function will write null bytes until a n bytes are wrtten.
  *
  * Return: a pointer to the destination string dest
