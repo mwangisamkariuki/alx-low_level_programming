@@ -28,6 +28,8 @@ void print_chessboard(char (*a)[8]);
 /*a function that prints sum of 2 diagonals of a square*/
 void print_diagsums(int *a, int size);
 
+/*a function that sets the value of a pointer to a char.*/
+void set_string(char **s, char *to);
 
 #endif
 /* end of MAIN_H */
