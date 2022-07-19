@@ -22,7 +22,12 @@ char *_strpbrk(char *s, char *accept);
 /*a function that locates a substring.*/
 char *_strstr(char *haystack, char *needle);
 
-
+/*function that prints the chessboard.*/
 void print_chessboard(char (*a)[8]);
 
-#endif/* MAIN_H */
+/*a function that prints sum of 2 diagonals of a square*/
+void print_diagsums(int *a, int size);
+
+
+#endif
+/* end of MAIN_H */
