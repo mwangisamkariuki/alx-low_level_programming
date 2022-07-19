@@ -1,6 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/*outputs characters*/
+int _putchar(char c);
+
 /*function that fills memory with a constant byte*/
 char *_memset(char *s, char b, unsigned int n);
 
@@ -19,5 +22,7 @@ char *_strpbrk(char *s, char *accept);
 /*a function that locates a substring.*/
 char *_strstr(char *haystack, char *needle);
 
+
+void print_chessboard(char (*a)[8]);
 
 #endif/* MAIN_H */
