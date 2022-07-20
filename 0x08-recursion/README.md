@@ -7,13 +7,11 @@
 # Task 3;
      a function that returns the factorial of a given number.
 # Task 4;
-    a function that returns the factorial of a given number
-# Task 5;
     function that returns the value of x raised to the power of y
-# Task 6;
+# Task 5;
     function that returns the natural square root of a number.
-# Task 7;
+# Task 6;
     function that returns 1 if the input integer is a prime number,
     otherwise return 0.
-# Task 8;
-    
+# Task 7;
+    Write a function that returns 1 if a string is a palindrome and 0 if not.
