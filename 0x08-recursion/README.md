@@ -8,4 +8,5 @@
      a function that returns the factorial of a given number.
 # Task 4;
     a function that returns the factorial of a given number
-    
+# Task 5;
+    function that returns the value of x raised to the power of y
