@@ -21,3 +21,11 @@
     multiplication can be stored in an integer
     If the program does not receive two arguments,
     your program should print Error, followed by a new line, and return 1
+
+# Task 4;
+    Write a program that adds positive numbers.
+    Print the result, followed by a new line
+    If no number is passed to the program, print 0,
+    followed by a new line
+    If one of the number contains symbols that are not digits,
+    print Error, followed by a new line, and return 1
