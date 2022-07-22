@@ -29,3 +29,7 @@
     followed by a new line
     If one of the number contains symbols that are not digits,
     print Error, followed by a new line, and return 1
+
+# Task 5;
+    Write a program that prints the minimum number of coins to
+    make change for an amount of money.
