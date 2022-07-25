@@ -8,8 +8,6 @@
 # Task 1;
     Write a function that returns a pointer to a newly allocated space in memory,
     which contains a copy of the string given as a parameter.
-
-# Task 2;
     Prototype: char *_strdup(char *str);
     The _strdup() function returns a pointer to a new string
     which is a duplicate of the string str. 
@@ -17,4 +15,12 @@
     Returns NULL if str = NULL
     On success, the _strdup function returns a pointer to the duplicated string. 
     It returns NULL if insufficient memory was available
+
+# Task 2;
+    Write a function that concatenates two strings.
+    he returned pointer should point to a newly allocated
+    space in memory which contains the contents of s1,
+    followed by the contents of s2, and null terminated
+
+
     
