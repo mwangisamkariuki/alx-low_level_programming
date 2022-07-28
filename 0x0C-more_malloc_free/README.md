@@ -20,3 +20,11 @@
 # Task 3;
     Write a function that creates an array of integers.
     Prototype: int *array_range(int min, int max);
+
+# Task 4;
+    Write a function that reallocates a memory block using malloc and free
+    Prototype: void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+    where ptr is a pointer to the memory previously allocated with a call to malloc: malloc(old_size)
+
+# Task 5;
+    
