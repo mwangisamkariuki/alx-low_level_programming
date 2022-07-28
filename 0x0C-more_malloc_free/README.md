@@ -11,3 +11,12 @@
     If the function fails, it should return NULL
     If n is greater or equal to the length of s2 then use the entire string s2
     if NULL is passed, treat it as an empty string
+
+# Task 2;
+    Write a function that allocates memory for an array, using malloc.
+    Prototype: void *_calloc(unsigned int nmemb, unsigned int size);
+    The _calloc function allocates memory for an array of nmemb elements of size bytes each and returns a pointer to the allocated memory.
+
+# Task 3;
+    Write a function that creates an array of integers.
+    Prototype: int *array_range(int min, int max);
