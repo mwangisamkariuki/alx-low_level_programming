@@ -15,5 +15,5 @@
     of this element. (if name is NULL, print Name: (nil))
     If d is NULL print nothing.
 # Task 3;
-    
+    Define a new type dog_t as a new name for the type struct dog.
 
