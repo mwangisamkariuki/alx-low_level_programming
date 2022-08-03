@@ -23,3 +23,7 @@
     You have to store a copy of name and owner
     Return NULL if the function fails
 
+# Task 5;
+    Write a function that frees dogs.
+    Prototype: void free_dog(dog_t *d);
+
