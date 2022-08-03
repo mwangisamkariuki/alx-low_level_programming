@@ -39,3 +39,8 @@
     followed by a new line, and exit with the status 100
     This task requires that you create four different files.
     3-get_op_func.c,3-op_functions.c,3-calc.h,3-main.c
+
+# Task 4;
+    Write a program that prints the opcodes of its own main function.
+# Task 5;
+    Write a program that prints the opcodes of its own main function
