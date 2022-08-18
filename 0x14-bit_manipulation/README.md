@@ -1,4 +1,4 @@
-# Task 0.10;
+# Task 0.0;
 Write a function that converts a binary number to an unsigned int.
 Prototype: unsigned int binary_to_uint(const char *b);
 where b is pointing to a string of 0 and 1 chars
@@ -6,7 +6,7 @@ Return: the converted number, or 0 if
 there is one or more chars in the string b that is not 0 or 1
 b is NULL
 
-# Task 1.10;
+# Task 1.1;
 Write a function that prints the binary representation of a number.
 Prototype: void print_binary(unsigned long int n);
 Format: see example
@@ -42,3 +42,8 @@ You are not allowed to use the % or / operators
 Write a function that checks the endianness.
 Prototype: int get_endianness(void);
 Returns: 0 if big endian, 1 if little endian
+
+# Task 7: crackme3
+Find the password for this program.
+Save the password in the file 101-password
+Your file should contain the exact password, no new line, no extra space
