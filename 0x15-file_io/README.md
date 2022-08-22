@@ -51,7 +51,7 @@
     You are allowed to use dprintf
 
 # Task 4
-    rite a program that displays the information contained in the ELF header at the start of an ELF file.
+    a program that displays the information contained in the ELF header at the start of an ELF file.
 
     Usage: elf_header elf_filename
     Displayed information: (no less, no more, do not include trailing whitespace)
