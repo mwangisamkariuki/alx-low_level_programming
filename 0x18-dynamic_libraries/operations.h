@@ -1,4 +1,4 @@
-ifndef OPERATIONS_H
+#ifndef OPERATIONS_H
 #define OPERATIONS_H
 
 int add(int a, int b);
