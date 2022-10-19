@@ -4,4 +4,8 @@ function that creates a hash table.
 a hash function implementing the djb2 algorithm.
 # Task 2. key -> index
  a function that gives you the index of a key
- 
+# Task 3:
+ a function that adds an element to the hash table.
+# Task 4:>>> ht['betty']
+ a function that retrieves a value associated with a key.
+# task 5:
