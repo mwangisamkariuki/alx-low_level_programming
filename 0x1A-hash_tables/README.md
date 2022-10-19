@@ -12,3 +12,5 @@ a function that retrieves a value associated with a key.
 Write a function that prints a hash table.
 # Task 6: >>> del ht
 Write a function that deletes a hash table.
+# Task 7: $ht['Betty'] = 'Cool'
+In PHP, hash tables are ordered. Wait… WAT? How is this even possible?
